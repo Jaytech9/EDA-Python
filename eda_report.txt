@@ -1,0 +1,41 @@
+
+BOSTON HOUSING DATASET - EDA REPORT
+Generated on: 2025-09-18 01:09:49
+============================================================
+
+DATASET OVERVIEW:
+- Shape: (506, 14)
+- Memory Usage: 55.47 KB
+- Total Missing Values: 0
+
+KEY INSIGHTS:
+==============================
+
+Dataset Statistics:
+- Total Properties: 506
+- Average Price: $36.96k
+- Price Range: $5.00k - $50.00k
+
+Top Positive Correlations with Housing Prices:
+- RM: +0.519
+- INDUS: +0.108
+
+Top Negative Correlations with Housing Prices:
+- CRIM: -0.556
+- LSTAT: -0.513
+- RAD: -0.084
+
+TARGET VARIABLE ANALYSIS:
+==============================
+- Mean: $36.96k
+- Median: $37.64k
+- Standard Deviation: $8.98k
+- Min: $5.00k
+- Max: $50.00k
+
+GENERATED FILES:
+====================
+- distributions.png - Feature distribution plots
+- correlation_heatmap.png - Correlation matrix heatmap  
+- target_analysis.png - Target variable analysis plots
+- eda_report.txt - This text report
