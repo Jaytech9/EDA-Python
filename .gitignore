@@ -15,7 +15,8 @@ venv/
 *.png
 *.jpg
 
-# Generated EDA files
+# Generated EDA files (will be recreated during build)
 eda_report.html
 eda_report.txt
 *.png
+public/
